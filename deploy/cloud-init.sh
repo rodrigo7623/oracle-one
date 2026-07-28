@@ -10,7 +10,7 @@
 
 set -euxo pipefail
 
-GITHUB_REPO_URL="https://github.com/TU_USUARIO/TU_REPO.git"
+GITHUB_REPO_URL="https://github.com/rodrigo7623/oracle-one.git"
 ANTHROPIC_API_KEY="sk-ant-REEMPLAZAR"
 
 apt-get update -y

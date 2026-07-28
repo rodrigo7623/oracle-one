@@ -8,15 +8,11 @@ Infrastructure (OCI).
 
 ## Demo en producción (OCI)
 
-> **URL pública:** `http://<IP-PUBLICA-DE-LA-INSTANCIA>` (reemplazar tras el deploy)
+> **URL pública:** http://167.234.255.31
 >
 > **Captura de pantalla:**
 >
 > ![Demo corriendo en OCI](docs/screenshot-oci.png)
->
-> *(Reemplazar la URL y la imagen `docs/screenshot-oci.png` por la captura real
-> de la aplicación corriendo en la instancia de OCI, como evidencia de que el
-> deploy funciona.)*
 
 ## 1. Descripción del proyecto
 
@@ -163,8 +159,8 @@ oracle-one/
 ### Pasos
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPO.git
-cd TU_REPO
+git clone https://github.com/rodrigo7623/oracle-one.git
+cd oracle-one
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -224,8 +220,8 @@ docker run -p 8000:8000 --env-file .env novashop-agent
    sudo apt-get update && sudo apt-get install -y docker.io git
    sudo systemctl enable --now docker
 
-   git clone https://github.com/TU_USUARIO/TU_REPO.git
-   cd TU_REPO
+   git clone https://github.com/rodrigo7623/oracle-one.git
+   cd oracle-one
 
    # Crear el .env directamente en la VM (evita exponer la key en scripts)
    echo "ANTHROPIC_API_KEY=sk-ant-tu-clave" | sudo tee .env
